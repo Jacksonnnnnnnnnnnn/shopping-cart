@@ -1,10 +1,12 @@
-# Getting Started with Create React App
+# Shopping Cart
 
- A simple online shopping cart application with "free shipping counter" function. This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[Demo Link](https://shopping-cart-jackson.pages.dev/)
 
-## Demo
+A simple online shopping cart application with "free shipping counter" function. 
+## Getting Started with Create React App
 
-[Link](https://shopping-cart-jackson.pages.dev/)
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 
 ## Available Scripts
 
