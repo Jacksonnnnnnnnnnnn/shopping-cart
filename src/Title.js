@@ -22,7 +22,7 @@ const Container = styled.div`
   }
 
   & span:hover {
-    box-shadow: inset 100px 0 0 0 red;
+    box-shadow: inset 90px 0 0 0 red;
     color: white;
   }
 `

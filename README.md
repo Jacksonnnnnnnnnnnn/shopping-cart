@@ -1,6 +1,10 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ A simple online shopping cart application with "free shipping counter" function. This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Demo
+
+[Link](https://shopping-cart-jackson.pages.dev/)
 
 ## Available Scripts
 

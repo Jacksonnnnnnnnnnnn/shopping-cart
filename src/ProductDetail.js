@@ -9,9 +9,8 @@ export default function ProductDetail() {
   let params = useParams()
   let [productDetail, setProductDetail] = useState(null)
 
-  // http://localhost:3004/ProductList
   useEffect( () => {
-    fetch('http://localhost:3004/ProductList')
+    fetch('https://tinyurl.com/yj5s38dz')
       .then(res => res.json())
       .then(data => {
         let productInfo = data.find((element) => {

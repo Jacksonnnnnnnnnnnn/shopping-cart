@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
-import Checkout from './Checkout'
 import QuantityBtn from './QuantityBtn'
 import Title from './Title'
 import styled from 'styled-components'
@@ -9,9 +8,9 @@ export default function ProductList() {
 
   let [productList, setProductList] = useState([])
 
-
+  // http://localhost:3004/ProductList
   useEffect( () => {
-    fetch('http://localhost:3004/ProductList')
+    fetch('https://tinyurl.com/yj5s38dz')
       .then(res => res.json())
       .then(data => setProductList(data))
   },[])
@@ -66,7 +65,7 @@ export default function ProductList() {
               <ContainerItem>
 
                 <Link to={'/productDetail/' + product.id}>
-                  <img src={process.env.PUBLIC_URL +'/img/' + product.image} /> <br/>
+                  <img src={process.env.PUBLIC_URL +'/img/' + product.image} alt={product.name}/> <br/>
                 </Link>
                 <ProductName>
                   {product.jersey} - $ {product.price} 
